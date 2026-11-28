@@ -12,7 +12,7 @@ from langchain_chroma import Chroma
 
 
 
-loader = PyPDFLoader("data/sample.pdf")
+loader = PyPDFLoader("data/Reg.pdf")
 
 documents = loader.load()
 
